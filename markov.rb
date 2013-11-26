@@ -1,3 +1,8 @@
+load './twitter_client.rb'
+
+client = Twitter::Client.new
+client.update("Hola Mundo.")
+
 class MarkovChain
   def initialize(text)
     @words = Hash.new
@@ -39,7 +44,7 @@ until sentence.length == 140
 end
 
 puts sentence << '.'
-# sentence[0] = sentence[0].upcase
-# sentence.chop
+sentence[0] = sentence[0].upcase
+sentence.chop
 
-# puts sentence << '.'
+puts sentence << '.'

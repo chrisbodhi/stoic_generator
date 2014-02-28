@@ -1,3 +1,9 @@
+require 'sinatra'
+require 'marky_markov'
+require 'twitter'
+require 'haml'
+require 'zurb-foundation'
+require 'sass'
 
 def get_sentence
   markov = MarkyMarkov::TemporaryDictionary.new
@@ -41,4 +47,3 @@ end
 get '/' do
   haml :index
 end
-

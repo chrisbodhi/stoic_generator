@@ -1,11 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-# gem 'sinatra/base'
-# gem 'sinatra/assetpack'
-gem 'shotgun'
-gem 'marky_markov'
+gem 'rake'
 gem 'foreman'
+gem 'marky_markov'
 gem 'twitter'
 gem 'haml'
 gem 'zurb-foundation'

@@ -10,4 +10,6 @@ Twitter posting by way of [Twitter](https://github.com/sferik/twitter) gem on Gi
 
 Follow @markovQaurelius on [Twitter](https://twitter.com/markovQaurelius).
 
-Proper website and daily Little Printer feed to follow.
+~~Proper website~~ On a [proper website](http://markovqaurelius.herokuapp.com) now.
+
+***REMOVED***and daily Little Printer feed to follow.

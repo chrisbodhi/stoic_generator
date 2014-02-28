@@ -1,3 +1,10 @@
-./settings.yml
 ./config/application.yml
 .env
+
+./views/marcus_large.tif
+views/marcus_large.tif
+
+./public/css/.sass-cache/*
+public/css/.sass-cache/*
+
+public/css/application.scss

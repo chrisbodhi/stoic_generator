@@ -1,9 +1,33 @@
-# require 'rubygems'
 require 'sinatra'
+# require 'sinatra/base'
+# require 'sinatra/assetpack'
 require 'shotgun'
 require 'marky_markov'
 require 'foreman'
 require 'twitter'
+require 'haml'
+require 'zurb-foundation'
+require 'sass'
+
+# class App < Sinatra::Base
+#   register Sinatra::AssetPack
+  
+#   assets do
+#     js :application, [
+#         'js/*.js'
+#       ]
+
+#     css :application, [
+#       '/css/jqueryui.css',
+#       '/css/reset.css',
+#       '/css/foundation.sass',
+#       '/css/app.sass'
+#      ]
+
+#     js_compression :jsmin
+#     css_compression :sass
+#   end
+# end
 
 def get_sentence
   markov = MarkyMarkov::TemporaryDictionary.new
@@ -45,7 +69,7 @@ def twitter_post
 end
 
 get '/' do
-  "#{make_sentence}"
+  haml :index
 end
 
 get '/post' do

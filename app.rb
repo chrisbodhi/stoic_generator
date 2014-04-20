@@ -47,3 +47,7 @@ end
 get '/' do
   haml :index
 end
+
+get '/lp' do
+  haml :lp
+end

@@ -1,0 +1,46 @@
+.all {
+  width: 340px;
+  margin: 0 auto;
+}
+
+/* Image size manipulation and placement */
+img {
+  width: 275px; 
+  margin-left: 30px;
+}
+
+/* For the cube property for the bust */
+.wrap {
+  -webkit-perspective: 500px;
+  -webkit-perspective-origin: 50% -170px;
+  margin-top: -35px;
+}
+
+.bust {
+  /*border: black solid 3px;*/
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+}
+
+.bust div {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+
+.top {
+  -webkit-transform: rotateX(-90deg) translateY(-100px);
+  -webkit-transform-origin: top center;
+  border: solid 3px black;
+}
+
+.front {
+  -webkit-transform: translateZ(100px);
+  border: solid 2px black;
+  font-family: Helvetica;
+  font-size: 1.5em;
+  padding: 15px;
+  margin: 0px;
+  text-align: center;
+  position: relative;
+}

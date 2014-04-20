@@ -1,0 +1,18 @@
+!!! 5
+%html
+  %head
+    %title 
+      Markov Aurelius Speaks
+    %link{rel: "stylesheet", type: "text/css", href: "./css/lp.css"}
+    %link{rel: "stylesheet", type: "text/css", href: "./css/foundation.css"}
+
+  %body
+    .row
+      .small-8.small-centered.columns
+        .all
+          %img{:src => "./img/marcus_med.png", alt: "I think real good and stuff.", title: "Caesar Marcus Aurelius"}
+          .wrap
+            .bust 
+              .top
+              .front
+                =make_sentence

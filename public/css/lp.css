@@ -1,3 +1,8 @@
+/* Per the BERG Cloud FAQ: deals with Webkit auto-adding 8px of margin */
+body {
+  margin: 0;
+}
+
 .all {
   width: 340px;
   margin: 0 auto;

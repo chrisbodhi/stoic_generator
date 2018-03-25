@@ -11,4 +11,4 @@ gem 'zurb-foundation'
 gem 'sass'
 
 # To calm down Heroku
-ruby '2.0.0'
+ruby '2.2.4'

@@ -343,7 +343,7 @@
         $('.joyride-modal-bg').hide();
       }
 
-      // Prevent scroll bouncing***REMOVED***wait to remove from layout
+      // Prevent scroll bouncing...wait to remove from layout
       this.settings.$current_tip.css('visibility', 'hidden');
       setTimeout($.proxy(function() {
         this.hide();

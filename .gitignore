@@ -1,4 +1,4 @@
-config/application.yml
+# config/application.yml
 .env
 
 ./views/marcus_large.tif

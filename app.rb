@@ -14,7 +14,7 @@ def get_sentence
 end
 
 def shorten(sentence)
-  sentence = sentence[0..136] + '***REMOVED***'
+  sentence = sentence[0..136] + '...'
 end
 
 def clean_sentence(sentence)

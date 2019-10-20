@@ -12,4 +12,4 @@ Follow @markovQaurelius on [Twitter](https://twitter.com/markovQaurelius).
 
 ~~Proper website~~ On a [proper website](http://markovqaurelius.herokuapp.com) now.
 
-***REMOVED***and daily Little Printer feed to follow.
+...and daily Little Printer feed to follow.

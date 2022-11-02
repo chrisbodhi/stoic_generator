@@ -38,7 +38,7 @@ mc = MarkovChain.new(
 sentence = ""
 word = "life"
 
-until sentence.length == 140
+until sentence.length == 280
   sentence << word << " "
   word = mc.get(word)
 end

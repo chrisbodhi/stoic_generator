@@ -14,11 +14,11 @@ def get_sentence
 end
 
 def shorten(sentence)
-  sentence = sentence[0..136] + '...'
+  sentence = sentence[0..276] + '...'
 end
 
 def clean_sentence(sentence)
-  sentence = shorten(sentence) if sentence.length > 140
+  sentence = shorten(sentence) if sentence.length > 280
   sentence = sentence.strip
   sentence = sentence.chop if sentence[-1] == ','
   if sentence[-1] == '.' || sentence[-1] == '?' || sentence[-1] == '!'

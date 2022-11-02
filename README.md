@@ -1,5 +1,7 @@
 # Markov Aurelius: A Generator of Stoic Quotes
 
+![markov q. himself](./public/img/marcus_med.png)
+
 Uses Marcus Aurelius's "Meditations" and a Markov Chain to generate quotes posted to Twitter.
 
 "Meditations" found at [Project Gutenberg](http://www.gutenberg.org/ebooks/2680). 

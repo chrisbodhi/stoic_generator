@@ -6,10 +6,8 @@ Uses Marcus Aurelius's "Meditations" and a Markov Chain to generate quotes poste
 
 Markov Chains by way of [Marky_Markov](https://github.com/zolrath/marky_markov) gem on GitHub.
 
-Twitter posting by way of [Twitter](https://github.com/sferik/twitter) gem on GitHub.
+Twitter posting by way of [markdown-tweet-scheduler](https://github.com/reidjs/markdown-tweet-scheduler) GitHub Action.
 
 Follow @markovQaurelius on [Twitter](https://twitter.com/markovQaurelius).
 
-~~Proper website~~ On a [proper website](http://markovqaurelius.herokuapp.com) now.
-
-...and daily Little Printer feed to follow.
+~~On a [proper website](http://markovqaurelius.herokuapp.com) now.~ RIP Heroku free tier

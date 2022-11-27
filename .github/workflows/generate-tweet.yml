@@ -20,7 +20,7 @@ jobs:
         bundler-cache: true
 
     - name: Add tweet to file
-    - run: |
+      run: |
         bundle exec rake generate_tweet >> "tweets/$(date -u +%Y-%b-%d).md"
 
     - name: Commit file to repo

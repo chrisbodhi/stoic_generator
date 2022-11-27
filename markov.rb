@@ -1,8 +1,3 @@
-load './twitter_client.rb'
-
-client = Twitter::Client.new
-client.update("Hola Mundo.")
-
 class MarkovChain
   def initialize(text)
     @words = Hash.new

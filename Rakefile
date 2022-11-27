@@ -1,8 +1,10 @@
 require './app'
 require 'rake'
 
-desc "This task sends a generated post to Twitter."
+task :generate_tweet do
+  make_sentence
+end
 
-task :post_to_twitter do
-  twitter_post
+task :post do
+  puts "do the post"
 end

@@ -1,8 +1,3 @@
-load './twitter_client.rb'
-
-client = Twitter::Client.new
-client.update("Hola Mundo.")
-
 class MarkovChain
   def initialize(text)
     @words = Hash.new
@@ -38,7 +33,7 @@ mc = MarkovChain.new(
 sentence = ""
 word = "life"
 
-until sentence.length == 140
+until sentence.length == 280
   sentence << word << " "
   word = mc.get(word)
 end

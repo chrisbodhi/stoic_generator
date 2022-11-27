@@ -33,7 +33,16 @@ jobs:
         git commit -m "Add tweet for $(date -u +%Y-%b-%d)."
 
     - name: Create Pull Request
+      id: cpr
       uses: peter-evans/create-pull-request@v4
       with:
         title: "Add tweet for today."
+        branch: $(date -u +%Y-%b-%d)
         delete-branch: true
+
+    - name: Enable Pull Request Automerge
+      if: steps.cpr.outputs.pull-request-operation == 'created'
+      uses: peter-evans/enable-pull-request-automerge@v2
+      with:
+        pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+        merge-method: squash

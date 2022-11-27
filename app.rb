@@ -25,9 +25,7 @@ def clean_sentence(sentence)
 end
 
 def make_sentence
-  s = clean_sentence(get_sentence)
-  puts s
-  s
+  clean_sentence(get_sentence)
 end
 
 # make_sentence

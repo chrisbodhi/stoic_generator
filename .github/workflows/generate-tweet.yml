@@ -19,7 +19,9 @@ jobs:
         ruby-version: '3.1.2'
         bundler-cache: true
 
-    - run: bundle exec rake generate_tweet
+    - name: Add tweet to file
+    - run: |
+        bundle exec rake generate_tweet >> "tweets/$(date -u +%Y-%b-%d).md"
 
     - name: Commit file to repo
       run: echo "going to commit, yes"

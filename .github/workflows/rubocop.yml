@@ -3,9 +3,6 @@ name: Rubocopy
 on:
   pull-request
 
-  # Manually trigger this action
-  workflow_dispatch:
-
 jobs:
   run:
     runs-on: ubuntu-latest

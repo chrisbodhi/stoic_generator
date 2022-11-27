@@ -27,6 +27,8 @@ jobs:
 
     - name: Create commits
       run: |
+        git config user.name 'Chris Boette'
+        git config user.email 'chrisbodhi@users.noreply.github.com'
         git add -A
         git commit -m "Add tweet for $(date -u +%Y-%b-%d)."
 

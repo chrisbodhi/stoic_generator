@@ -3,7 +3,7 @@ require 'rake'
 
 task :generate_tweet do
   s = make_sentence
-  file_name = "./tweets/#{Time.now.strftime("%Y-%b-%d")}.md"
+  file_name = "../tweets/#{Time.now.strftime("%Y-%b-%d")}.md"
   # Create, write to file
   File.open(file_name, "w") { |f| f.write(s) }
 

@@ -12,4 +12,4 @@ Twitter posting by way of [markdown-tweet-scheduler](https://github.com/reidjs/m
 
 Follow @markovQaurelius on [Twitter](https://twitter.com/markovQaurelius).
 
-~~On a [proper website](http://markovqaurelius.herokuapp.com) now.~ RIP Heroku free tier
+~On a [proper website](http://markovqaurelius.herokuapp.com) now.~ RIP Heroku free tier

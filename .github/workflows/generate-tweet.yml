@@ -37,7 +37,7 @@ jobs:
       uses: peter-evans/create-pull-request@v4
       with:
         title: "Add tweet for today."
-        branch: $(date -u +%Y-%b-%d)
+        branch: "$(date -u +%Y-%b-%d)"
         delete-branch: true
 
     - name: Enable Pull Request Automerge

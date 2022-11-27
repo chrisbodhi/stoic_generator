@@ -8,3 +8,5 @@ views/marcus_large.tif
 public/css/.sass-cache/*
 
 public/css/application.scss
+vendor/
+.bundle

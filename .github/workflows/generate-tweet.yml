@@ -35,5 +35,5 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
       with:
-        title: "Add tweet for $(date -u +%Y-%b-%d)."
+        title: "Add tweet for today."
         delete-branch: true

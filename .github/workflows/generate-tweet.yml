@@ -21,6 +21,7 @@ jobs:
 
     - name: Add tweet to file
       run: |
+        touch "${{ github.workspace }}/tweets/$(date -u +%Y-%b-%d).md"
         bundle exec rake generate_tweet >> "${{ github.workspace }}/tweets/$(date -u +%Y-%b-%d).md"
 
     - name: Commit file to repo

@@ -1,7 +1,11 @@
 name: Rubocopy
 
 on:
-  pull-request
+  pull_request:
+    types: [opened]
+  
+  # Manually trigger this action
+  workflow_dispatch:
 
 jobs:
   run:

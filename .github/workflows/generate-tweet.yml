@@ -1,8 +1,8 @@
 name: Generate tweet
 
 on:
-  schedule:
-    - cron: '2 10 * * *'
+#  schedule:
+#    - cron: '2 10 * * *'
 
   # Manually trigger this action
   workflow_dispatch:
